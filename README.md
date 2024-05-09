@@ -4,7 +4,7 @@
 
 Please stand up and stretch your body for a while if you see this :)
 
-Hello! If you appreciate my creations, kindly consider [backing me](#-donation). Your support is greatly appreciated. Thank you!
+Hello! If you appreciate my creations, kindly consider [backing me](#donation). Your support is greatly appreciated. Thank you!
 
 **Enhance Your Experience**
 
