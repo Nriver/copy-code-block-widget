@@ -22,7 +22,7 @@ Copy code block widget for Trilium. Double click to copy code block content in T
 
 # How to Install
 
-1. Download the zip file from the [release page](https://github.com/Nriver/tomato-timer-widget/releases).
+1. Download the zip file from the [release page](https://github.com/Nriver/copy-code-block-widget/releases).
 2. Right-click note tree in Trilium and click import, uncheck `Safe Import`.
 3. Restart Trilium Notes or use `ctrl+r` to reload the interface.
 4. Open a `Text` note, double-click on the code block.
