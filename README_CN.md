@@ -22,7 +22,7 @@ Trilium的代码块复制小部件。在Trilium中双击以复制代码块内容
 
 # 如何安装
 
-1. 从[发布页面](https://github.com/Nriver/tomato-timer-widget/releases)下载zip文件。
+1. 从[发布页面](https://github.com/Nriver/copy-code-block-widget/releases)下载zip文件。
 2. 在Trilium中右键单击笔记树，然后单击导入，取消选中“安全导入”。
 3. 重新启动Trilium Notes或使用`ctrl+r`重新加载界面。
 4. 打开一个`Text`笔记，在代码块上双击。
