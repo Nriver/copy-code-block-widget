@@ -30,12 +30,13 @@ class countDownWidget extends api.NoteContextAwareWidget {
                 // pinpoint code blocks
                 container.find("pre:not(.CodeMirror-line, .CodeMirror-line-like)").each(function() {
             
-                    // extract code block data
-                    var codeContent = $(this)[0].innerText;
+                    var _this = $(this)[0];
                     
                     // copy on double click
                     // unbind first, prevent duplicated event binding
                     $(this).off('dblclick').on('dblclick', function() {
+                        // extract code block data
+                        var codeContent = _this.innerText;
                         navigator.clipboard.writeText(codeContent);
                         api.showMessage(i18n('copied'));
                     });
