@@ -34,6 +34,8 @@ Trilium的代码块复制小部件。在Trilium中双击以复制代码块内容
 2. 支持i18n，查看`translations`子笔记以获取翻译文本。
 3. 将会有通知告诉您已成功复制了代码块 :)
 
+附注：如果这个小部件在您的客户端或网页浏览器中无法正常工作，请尝试在config中增加executeDelay以更好地适应您的设置。
+
 # 我为什么制作这个？
 
 由于上游CKEditor缺乏此功能，Trilium中没有复制按钮。相关问题 https://github.com/ckeditor/ckeditor5/issues/9774 在过去3年中都没有被解决。我认为这个问题不会在上游得到解决。因此，我自己实现了这个功能。

@@ -34,6 +34,8 @@ Copy code block widget for Trilium. Double click to copy code block content in T
 2. i18n support, check the `translations` subnote for the translated texts.
 3. There will be a notification telling you have successfully copied the code block :)
 
+P.S. If this widget does not work in your client or web browser, try increasing the `executeDelay` in `config` to better suit your settings.
+
 # Why I Made This?
 
 There is no copy button in Trilium due to the upstream CKEditor's lack of this feature. The related issue https://github.com/ckeditor/ckeditor5/issues/9774 has not been touched for 3 years until now. I would assume this won't be fixed in the upstream. So, I made an implementation by myself.
