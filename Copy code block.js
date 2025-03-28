@@ -27,22 +27,32 @@ class countDownWidget extends api.NoteContextAwareWidget {
             var container = $("div.note-split:not(.hidden-ext) > div.scrolling-container > div.note-detail");
             
             function performOperationWhenReady(container) {
-                // pinpoint code blocks
+                // Pinpoint code blocks
                 container.find("pre:not(.CodeMirror-line, .CodeMirror-line-like)").each(function() {
-            
                     var _this = $(this)[0];
                     
-                    // copy on double click
-                    // unbind first, prevent duplicated event binding
+                    // Copy on double click
                     $(this).off('dblclick').on('dblclick', function() {
-                        // extract code block data
                         var codeContent = _this.innerText;
                         navigator.clipboard.writeText(codeContent);
                         api.showMessage(i18n('copied'));
                     });
                 });
+
+                // Pinpoint inline code elements (avoid those inside <pre>)
+                container.find("code").not("pre code").each(function() {
+                    var _this = $(this)[0];
+
+                    // Copy on double click
+                    $(this).off('dblclick').on('dblclick', function() {
+                        var inlineCodeContent = _this.innerText;
+                        navigator.clipboard.writeText(inlineCodeContent);
+                        api.showMessage(i18n('copied'));
+                    });
+                });
             }
-            // wait for editor load the content, prevent unexpected things
+
+            // Wait for editor to load the content
             setTimeout(performOperationWhenReady, config.executeDelay, container);
         });
     }
