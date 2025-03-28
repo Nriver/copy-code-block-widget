@@ -1,3 +1,7 @@
+// Trilium Notes Copy Code Block Widget
+// check for updates:
+// https://github.com/Nriver/copy-code-block-widget/releases
+
 const i18n = key => translations.trans[config.lang][key];
 
 class countDownWidget extends api.NoteContextAwareWidget {
