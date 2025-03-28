@@ -12,13 +12,19 @@ Trilium的代码块复制小部件。在Trilium中双击以复制代码块内容
 
 # 截图
 
-## 双击以复制
+## 双击复制
+
+双击代码块以复制它。
 
 ![整体外观](docs/copy1.gif)
 
+您还可以复制内联代码。
+
+![内联代码](docs/copy-inline-code.gif)
+
 ## 多语言支持
 
-![整体外观](docs/copy2.gif)
+![多语言](docs/copy2.gif)
 
 # 如何安装
 

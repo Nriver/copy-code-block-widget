@@ -14,11 +14,17 @@ Copy code block widget for Trilium. Double click to copy code block content in T
 
 ## Double click to copy
 
+Double click on code block to copy it.
+
 ![overall look](docs/copy1.gif)
+
+You can also copy inline code.
+
+![inline code](docs/copy-inline-code.gif)
 
 ## Multi-language support
 
-![overall look](docs/copy2.gif)
+![multi language](docs/copy2.gif)
 
 # How to Install
 
